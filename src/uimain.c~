@@ -1,0 +1,24 @@
+#include <stdio.h>
+#inlcude "history.h"
+#include "tokenizer.h"
+
+
+
+int main() {
+
+
+  while (1) {
+
+    char test;
+
+    printf("please enter something");
+
+    fgets(test);
+
+    printf(test);
+
+    return 0;
+
+  }
+
+}
