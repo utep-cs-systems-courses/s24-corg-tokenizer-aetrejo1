@@ -13,7 +13,9 @@ int main() {
 
     printf("please enter something\n");
 
-    fgets(test,sizeof(test), stdin);
+    printf(">");
+
+    fgets(test, sizeof(test), stdin);
 
     printf(test);
 
